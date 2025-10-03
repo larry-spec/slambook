@@ -1,0 +1,17 @@
+ body {
+    background-color: aquamarine;
+       font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        h2 {
+            text-decoration-color: black;
+        }
+        .section {
+            margin-bottom: 20px;
+          }
+          P{
+            text-align:none;
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+            text-decoration: dotted;
+          }

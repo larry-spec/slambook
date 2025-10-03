@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link rel="stylesheet" href=".css">
+</head>
+
+<body>
+    <h1>Slambook!</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required> <br>
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" placeholder="09XX-XXX-XXXX" required> <br>
+
+        <label for="facebook">Facebook URL:</label>
+        <input type="url" id="facebook" name="facebook" placeholder="https://facebook.com/yourprofile"> <br>
+
+        <label for="search">Search Something About You:</label>
+        <input type="search" id="search" name="search" placeholder="Type here..."> <br>
+
+        <label for="favnum">Favorite Number (0–20):</label>
+        <input type="number" id="favnum" name="favnum" min="0" max="20"> <br>
+
+        <label for="motto">Your Motto in Life:</label> <br>
+        <textarea id="motto" name="motto" rows="3" placeholder="Type your motto here..."></textarea> <br>
+
+        <div class="buttons">
+            <input type="submit" value="Submit"> <br>
+            <input type="reset" value="Reset"><br>
+        </div>
+    </form>
+    <div class="section">
+        <h2>Preferred Snack</h2>
+        <p>Which snacks do you enjoy the most?</p>
+        <input type="checkbox" id="chips" name="snack" value="Chips">
+        <label for="chips">Chips</label>
+        <input type="checkbox" id="chocolates" name="snack" value="Chocolates">
+        <label for="chocolates">Chocolates</label>
+        <input type="checkbox" id="fruits" name="snack" value="Fruits">
+        <label for="fruits">Fruits</label>
+        <input type="checkbox" id="cookies" name="snack" value="Cookies">
+        <label for="cookies">Cookies</label>
+    </div>
+
+    <div class="section">
+        <h2>Dream Vacation</h2>
+        <p>If you could go anywhere for a vacation, where would you choose?</p>
+        <input type="radio" id="beach" name="vacation" value="Beach">
+        <label for="beach">Beach</label>
+        <input type="radio" id="mountains" name="vacation" value="Mountains">
+        <label for="mountains">Mountains</label>
+        <input type="radio" id="city" name="vacation" value="City">
+        <label for="city">City</label>
+        <input type="radio" id="countryside" name="vacation" value="Countryside">
+        <label for="countryside">Countryside</label>
+    </div>
+
+    <div class="section">
+        <h2>Preferred Music Genre</h2>
+        <p>What type of music do you listen to the most?</p>
+        <select name="music">
+            <option value="Pop">Pop</option>
+            <option value="Rock">Rock</option>
+            <option value="Hip-hop">Hip-hop</option>
+            <option value="Classical">Classical</option>
+        </select>
+    </div>
+
+    <div class="section">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+
+</body>
+
+</html>
